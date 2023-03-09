@@ -60,6 +60,10 @@ html{
     color: white;
     background-color: rgb(26, 26, 26);
 }
+.btn4{
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+}
 /* For responsive design */
 @media(min-width:1450px){
     html{
