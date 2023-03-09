@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto,Arial;
+
+}
+.profilepic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myimg{
+    width: 17rem;
+    border-radius: 12rem;
+    border: 0.2rem  solid rgb(231 181 41);
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+}
+.profilepic{
+    margin-top: 6rem;
+}
+.briefnav{
+    line-height: 2.6rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1.2rem;
+  font-weight: 400;
+}
+.btn{
+    margin-top: 1.6rem;
+    font-size: 1.8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.7rem;
+    color:white;
+    background-color: rgb(82, 77, 77);
+    border: 1px solid rgb(231 181 41);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.navname{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.btn2{
+   padding-left: 7.2rem;
+   padding-right: 7.2rem;
+}
+.btn3{
+    padding-left: 7.2rem;
+    padding-right: 7.2rem;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+/* For responsive design */
+@media(min-width:1450px){
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:760px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:480px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:350px){
+    html{
+        font-size: 33%;
+    }
+}
