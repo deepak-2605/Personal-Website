@@ -108,12 +108,22 @@ body{
     display: flex;
     /* flex-direction: row; */
     justify-content: space-around;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+  
+    
 }
 .weather{
+    position:relative;
     transition: opacity 0.2s;
 }
 .gmeetclone{
+    /* top: 0px; */
+    /* vertical-align: top; */
+    /* display: flex; */
+    /* flex: 1; */
+    /* flex-direction: column; */
+    /* width: 30rem; */
+    position:relative;
     transition: opacity 0.2s;
 }
 .description{
