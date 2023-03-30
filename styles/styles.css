@@ -171,6 +171,10 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 0.9rem;
+    color: white;
+}
+.text1{
+    color: white;
 }
 .ContactInfo{
     display: flex;
